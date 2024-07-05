@@ -2,7 +2,7 @@ import * as Sequelize from 'sequelize';
 import { IUser } from './model';
 import { sequelize } from '../../config/database/sql';
 
-const UserSchema = sequelize.define<IUser>(
+export const UserSchema = sequelize.define<IUser>(
   'users',
   {
     id: {

@@ -3,7 +3,7 @@
 import * as Sequelize from 'sequelize';
 
 export interface ISong extends Sequelize.Model {
-  id: number;
+  e_id: number;
   title: string;
   artist?: string;
   album?: string;

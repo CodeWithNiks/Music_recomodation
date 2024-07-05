@@ -3,7 +3,7 @@ config();
 
 export const envs = {
   env: process.env.NODE_ENV || 'dev',
-  port: Number(process.env.NODE_PORT) || 4000,
+  port: Number(process.env.NODE_PORT) || 8080,
   db: {
     host: process.env.DB_HOST || 'localhost',
     port: process.env.DB_PORT || 3306,
